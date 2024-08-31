@@ -1,81 +1,64 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tabla 4</title>
-    <style>
-        table, th, td {
-            border: 1px solid black;
-            border-collapse: collapse;
-            padding: 5px;
-            text-align: center;
-        }
-    </style>
+    <title>table4</title>
 </head>
 <body>
-    <!-- Primera tabla -->
-    <table>
+    <table border='2' align="center">
+        
         <tr>
-            <td rowspan="2">Item 1</td>
-            <td>Item 2</td>
-            <td>Item 3</td>
-            <td>Item 4</td>
-        </tr>
-        <tr>
-            <td>Item 5</td>
-            <td>Item 6</td>
-            <td>Item 7</td>
-        </tr>
-    </table>
-
-    <br>
-
-    <!-- Segunda tabla -->
-    <table>
-        <tr>
-            <td>Item 1</td>
-            <td>Item 2</td>
+            <td colspan ="2" rowspan="2" ="center"> 
+                Item1
+                
+            </td>
+            <td>Item2</td><td>Item3</td><td>Item4</td>
             
         </tr>
         <tr>
-            <td>Item 3</td>
-            <td>Item 4</td>
-            <td>Item 5</td>
+            <td>Item5</td><td>Item6</td><td>Item7</td>
+           
         </tr>
     </table>
-
     <br>
-
-    <!-- Tercera tabla -->
-    <table>
+    <table border='2' align="center">
+        
         <tr>
-            <td>Item 1</td>
-            <td rowspan="2">Item 2</td>
-            <td>Item 3</td>
+            
+            <td>Item1</td><td colspan="2">Item2</td>
+            
         </tr>
         <tr>
-            <td rowspan="2">Item 4</td>
+            <td>Item3</td><td>Item4</td><td>Item5</td>
+           
+        </tr>
+        
+    </table>
+    <br>
+    <table border='2' align="center">
+        
+        <tr>
+            
+            <td>Item1</td><td rowspan= "2"colspan="1">Item2</td> <td>Item3</td>
+            
         </tr>
         <tr>
-            <td>Item 5</td>
+            <td>Item4</td><td>Item5</td>
+           
         </tr>
     </table>
-
     <br>
-
-    <!-- Cuarta tabla -->
-    <table>
+    <table border='2' align="center">
+        
         <tr>
-            <td rowspan="2">Item 1</td>
-            <td rowspan="2">Item 2</td>
-            <td>Item 3</td>
+            
+            <td>Item1</td><td colspan="2">Item2</td>
+            
         </tr>
         <tr>
-            <td rowspan="2">Item 4</td>
-        </tr>
-        <tr>
-            <td>Item 5</td>
+            <td>Item3</td><td>Item4</td><td>Item5</td>
+           
         </tr>
     </table>
 </body>
